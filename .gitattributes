@@ -1,0 +1,17 @@
+@"
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Shell scripts should use LF (important for Linux deployment)
+*.sh text eol=lf
+*.bash text eol=lf
+
+# Python files
+*.py text diff=python
+
+# Binary files
+*.mp4 binary
+*.wav binary
+*.png binary
+*.pth binary
+"@ | Out-File -FilePath .gitattributes -Encoding UTF8

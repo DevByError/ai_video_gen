@@ -1,0 +1,11 @@
+@"
+[submodule "GFPGAN"]
+    path = GFPGAN
+    url = https://github.com/TencentARC/GFPGAN.git
+[submodule "SadTalker"]
+    path = SadTalker
+    url = https://github.com/OpenTalker/SadTalker.git
+[submodule "Wav2Lip"]
+    path = Wav2Lip
+    url = https://github.com/Rudrabha/Wav2Lip.git
+"@ | Out-File -FilePath .gitmodules -Encoding UTF8
